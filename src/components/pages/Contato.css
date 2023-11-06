@@ -1,0 +1,84 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.desenvolvedor {
+    background-color: #000;
+    width: 100%;
+
+}
+
+.textocontato {
+    color: #21C946D6;
+    margin: 41%;
+}
+
+
+
+.eufoto {
+    background-color: #000;
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.eu {
+    width: 750px;
+}
+
+.textop {
+    color: white;
+    text-align: justify;
+    width: 500px;
+
+
+}
+
+@media (max-width: 900px){
+    .eufoto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textop{
+        width: 100%;
+    }
+    .eu {
+        margin-bottom: 1rem;
+    }
+    
+}
+.QR{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 3rem;
+    
+   
+}
+.qr1{
+    border-radius: 9%;
+    
+}
+
+.whats{
+    margin-top: 3%;
+    border-radius: 9%;
+    
+}
+.rodapec{
+    padding: 2rem;
+}
+.gmail{
+    display: flex;
+    height: 1rem;
+    width: 1.5rem;
+    margin-top: -3.3rem;
+    
+}

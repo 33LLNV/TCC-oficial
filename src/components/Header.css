@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+a{
+    box-shadow: inset 0 0 0 0 #289ac486;
+  color: #000;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  text-decoration: none;
+
+}
+
+a:hover{
+    box-shadow: inset 115 px 0 0 0 #68E182;
+    color: white;
+}
+.inspiracao02{
+    border-radius: 3rem;
+    color: aqua;
+}

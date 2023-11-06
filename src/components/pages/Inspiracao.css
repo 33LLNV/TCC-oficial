@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+.fundopreto{
+    background: #000;
+    height: 130vh;
+    margin: -16px 0 100px 0;
+    
+}
+
+
+.inspiracao{
+    bottom: 3rem;
+    border-radius: 3rem;
+    text-decoration: none;
+    
+}
+
+.t3{
+    text-align: justify;
+    margin: 4rem;
+    background-color: #000000;
+}
+
+.textoca{
+    margin-top: 25rem;
+    text-align: justify;
+    padding: 5rem;
+    background-color:white;
+    
+}
+
+.referencia{
+    color: #21C946D6;
+    margin-top: 1rem;
+}
+.video1{
+    margin-top: 3rem;
+}
+
+.caminhao{
+    padding: 2rem;
+    margin-top: 10rem;
+}
+.alerta{
+    margin-top: -15rem;
+    color: rgb(131, 131, 10);
+    background-color: rgb(217, 255, 1);
+}
+
+.rodapein{
+    padding: 2rem;
+}
+
+
+.gmail{
+    display: flex;
+    height: 1rem;
+    width: 1.5rem;
+    margin-top: -3.3rem;
+    
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+.textoinicial{
+    text-align: center;
+    margin-top: 2%;
+    color: #21C946;
+    
+}
+
+.fotocamiao1{
+    margin: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 2rem;
+    max-width: 70%;
+
+    background-color: #21C946;
+}
+.estrada-eu{
+    margin: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 2rem;
+    max-width: 70%;
+
+    background-color: #21C946;
+}
+
+.Rodape{
+    background-color: #21C946;
+    margin-top: 20%;
+    height: 10rem;
+   padding: 1rem;
+}
+
+.rodapep{
+    padding: 2rem;
+}
+.gmail{
+    display: flex;
+    height: 1rem;
+    width: 1.5rem;
+    margin-top: -3.3rem;
+    
+}

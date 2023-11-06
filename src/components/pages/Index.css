@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+.botao-menu {
+    border: 1px solid #21C946;
+    height: 3rem;
+    padding-inline: 2rem;
+    display:flex;
+    align-items: center;
+    background-color:#21C946 ;
+    
+}
+
+.menu {
+    border: 3px solid #21C946;
+    width: 100%;
+    padding-right: 100%rem;
+    transition: translate .3s;
+    
+}
+
+.menu nav {
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    
+}   
+
+
+.menu.close {
+    translate: -100%;
+    
+}
+
+.menu-desktop {
+    display: none;
+   padding: 30px;
+}
+
+@media(min-width: 900px) {
+    .menu-mobile {
+        display: none;
+    }
+
+    .menu-desktop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+}
+
+
+.menu-desktop, nav{
+    background-color: #21C946 ;
+    font-size: large;
+    height: 2%rem;
+    flex-direction: column;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+    
+}
+.titulo{
+    text-align: center;
+    margin-bottom: 1.3rem;
+}
+.sobre{
+    bottom: 3rem;
+    border-radius: 3rem;
+    text-decoration: none;
+    
+    
+}
+
+.oculosarduino{
+    
+    padding: 1rem;
+    width: 100vh;
+    max-width: 55%;
+    margin-left: 25%;
+    margin-right: 25%;
+   
+    background-color: #21C946;
+    
+}
+
+
+.produto{
+    bottom: 3rem;
+    border-radius: 3rem;
+    text-decoration: none;
+}
+.contato{
+    bottom: 3rem;
+    border-radius: 3rem;
+    text-decoration: none;
+    
+}
+.capa, img{
+   
+    width: 100%; /* Define a largura da imagem como 100% do espaço disponível */
+    height: 35rem;
+    max-height: 40rem;
+    max-width: 100%;
+    display: flex;
+
+}
+
+.menu-mobile{
+    max-width:100%;
+    
+    
+}
+
+.textofoto{
+margin-top: -25%;
+padding: 3%;
+color: aliceblue;
+}
+.textocolorido{
+   color: #21C946 ;
+   
+}
+.sobre{
+    text-align: center;
+    margin-top: 30%;
+}
+.objetivo{
+    margin-top: 0%;
+    text-align: center;
+color: #21C946 ;
+}
+
+.aluno{
+    text-align: center;
+}
+
+.textogrande{
+    text-align: justify;
+    padding: 5%;
+}
+
+.botao1{
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 3rem;
+    color: #21C946D6 ;
+    text-decoration: none;
+}
+
+.inspiracao{
+    text-align: center;
+    margin-top:1rem;
+    color: white;
+
+}
+
+.rodapei{
+    padding: 2rem;
+}
+.gmail{
+    display: flex;
+    height: 1rem;
+    width: 1.5rem;
+    margin-top: -3.3rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
