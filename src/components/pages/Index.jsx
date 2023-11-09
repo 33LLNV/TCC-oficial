@@ -1,8 +1,8 @@
 import "./Index.css"
 import bart from '../../img/image-23.png'
 import oculosArduino from '../../img/oculosarduino.jpeg'
-
-
+import gf from '../../img/grafico.jpg'
+import esquema from '../../img/esquema.jpg'
 
 function Index() {
 
@@ -52,7 +52,7 @@ function Index() {
     
         
 <div className="grafico">
-<img src="src/img/grafico.JPG" alt="" />
+<img src={gf} alt="grafico de acidentes" />
 </div>
 
 <iframe src="https://publuu.com/flip-book/4001/686174/page/1?embed" width="100%" height="980" allowfullscreen="" allow="clipboard-write" ></iframe>
@@ -63,7 +63,7 @@ function Index() {
 </div>
 <div className="esquemaeletrico">
 
-  <img className="esquema" src="src/img/esquema.JPG" alt="Esquema Eletrico" />
+  <img className="esquema" src={esquema} alt="Esquema Eletrico" />
 </div>
         
         <div className="Rodape">
