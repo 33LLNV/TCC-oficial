@@ -158,6 +158,33 @@ color: #21C946 ;
 
 }
 
+.h1texto{
+    text-align: center;
+    color: #21C946;
+}
+
+.textoh3{
+  text-align: center;
+}
+
+.esquemaeletrico{
+    min-width: 12%;
+    max-width: 65%;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+.grafico{
+    min-width: 12%;
+    max-width: 65%;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+
+}
+
+
 .rodapei{
     padding: 2rem;
 }

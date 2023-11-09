@@ -1,11 +1,15 @@
 import "./Index.css"
+import bart from '../../img/image-23.png'
+import oculosArduino from '../../img/oculosarduino.jpeg'
+
+
 
 function Index() {
 
   return (
     <main>
             <div className="capa">
-            <img src="./src/img/image-23.png" alt="fotoprincipal" />
+            <img src={bart} alt="fotoprincipal" />
         </div>
 
         <div className="textofoto">
@@ -21,7 +25,7 @@ function Index() {
         <p >Objetivo do Projeto</p>
         </div>
         <div className="oculosarduino">
-          <img src="src/img/oculosarduino.jpeg" alt="Foto de um oculos arduino" />
+          <img src={oculosArduino} alt="Foto de um oculos arduino" />
         </div>
 
         <div className="aluno"> <br /><h2>Aluno da instituição U.N.A.S.P. Óculos Anti-Sono</h2>
@@ -47,12 +51,20 @@ function Index() {
         </div>
     
         
-<div>
+<div className="grafico">
 <img src="src/img/grafico.JPG" alt="" />
 </div>
-        
 
-<iframe src="https://publuu.com/flip-book/4001/662515/page/1?embed" width="100%" height="980" allowfullscreen="" allow="clipboard-write" ></iframe>
+<iframe src="https://publuu.com/flip-book/4001/686174/page/1?embed" width="100%" height="980" allowfullscreen="" allow="clipboard-write" ></iframe>
+
+<div>
+<h1 className="h1texto">Mapa Elétrico</h1>
+  <h3 className="textoh3">Este mapa é responsavel por instruir no momento da montagem do projeto.</h3>
+</div>
+<div className="esquemaeletrico">
+
+  <img className="esquema" src="src/img/esquema.JPG" alt="Esquema Eletrico" />
+</div>
         
         <div className="Rodape">
             

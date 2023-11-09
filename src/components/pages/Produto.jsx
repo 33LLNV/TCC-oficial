@@ -1,5 +1,7 @@
 import "./Index.css"
 import "./Produto.css"
+import fotocaminhao from "../../img/caminhao.jpeg.jpg"
+import eu from "../../img/estrada-eu.jpg"
 
 function Produto() {
     return (
@@ -8,11 +10,11 @@ function Produto() {
   <strong> Foto do Produto final</strong> 
 </h3>
 <div className="fotocamiao1">
-    <img src="src/img/caminhao.jpeg.jpg" alt="Foto do camiao" />
+    <img src={fotocaminhao} alt="Foto do camiao" />
 </div>
 
 <div className="estrada-eu">
-    <img src="src/img/estrada-eu.jpg" alt="Desenvolvedor usando o Oculos" />
+    <img src={eu} alt="Desenvolvedor usando o Oculos" />
 
     
 

@@ -1,5 +1,8 @@
 import "./Index.css"
 import "./Contato.css"
+import eufoto from "../../img/eu.png"
+import code1 from "../../img/QR-code01.jpg"
+import code2 from "../../img/qr-whats.jpg"
 
 function Contato() {
 
@@ -13,7 +16,7 @@ function Contato() {
 
         
         <div className="eufoto">
-          <img src="src/img/eu.png" alt="eu" className="eu" />
+          <img src={eufoto} alt="eu" className="eu" />
 
           <h3 className="textop">Excelentíssimos colegas, professores, e todos os presentes,
 
@@ -34,11 +37,11 @@ function Contato() {
         </div>
 
         <div className="QR">
-        <img  className="qr1"  src="src/img/QR-code01.jpg" alt="QRCODE" />
-        <img  className="whats"  src="src/img/qr-whats.jpg" alt="QR-whats" />
+        <img  className="qr1"  src={code1}  alt="QRCODE" />
+        <img  className="whats"  src={code2} alt="QR-whats" />
 
 
-        </div>
+        </div>  
         <div className="Rodape">
             
             

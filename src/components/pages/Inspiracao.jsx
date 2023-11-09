@@ -1,5 +1,6 @@
 import "./Index.css"
 import "./Inspiracao.css"
+import truck from "../../img/truck.png.png"
 function Inspiracao() {
   return (
     <main className="fundopreto">
@@ -26,7 +27,7 @@ Embora seja essencial notar que nem todos os acidentes são ocasionados por fato
 Se o meu projeto obtivesse um patrocínio, eu o conceberia de forma a torná-lo acessível a todos os públicos de motoristas. Até mesmo a possibilidade de elaborar uma proposta de lei que tornasse obrigatória a utilização do dispositivo para motoristas que ultrapassem 12 horas de condução poderia ser considerada. Dessa maneira, ao soar o terceiro aviso, o motorista seria compelido a fazer uma pausa de 30 minutos. Tal iniciativa, sem dúvida, contribuiria para a segurança e bem-estar de todos os envolvidos no trânsito.</h3>
 
 <div className="caminhao">
-  <img src="src/img/truck.png.png" alt="caminhao" />
+  <img src={truck} alt="caminhao" />
 </div>
     </div>
     
