@@ -3,6 +3,7 @@ import "./Contato.css"
 import eufoto from "../../img/eu.png"
 import code1 from "../../img/QR-code01.jpg"
 import code2 from "../../img/qr-whats.jpg"
+import email from '../../img/gmail.png'
 
 function Contato() {
 
@@ -46,7 +47,7 @@ function Contato() {
             
             
           <h2 className="rodapec">Email: lucasleandro.viana@gmail.com</h2>
-          <img src="src/img/gmail.png" alt="gmail.png" className="gmail" />
+          <img src={email} alt="gmail.png" className="gmail" />
 
         </div>
 

@@ -1,6 +1,7 @@
 import "./Index.css"
 import "./Inspiracao.css"
 import truck from "../../img/truck.png.png"
+import email from '../../img/gmail.png'
 function Inspiracao() {
   return (
     <main className="fundopreto">
@@ -34,7 +35,7 @@ Se o meu projeto obtivesse um patrocínio, eu o conceberia de forma a torná-lo 
     <div className="Rodape">
 
 <h2 className="rodapein">Email: lucasleandro.viana@gmail.com</h2>
-<img src="src/img/gmail.png" alt="gmail.png" className="gmail" />
+<img src={email} alt="gmail.png" className="gmail" />
 
 <div id="chart">
   <div id="responsive-chart"></div>

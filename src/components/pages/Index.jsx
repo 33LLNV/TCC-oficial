@@ -1,8 +1,9 @@
 import "./Index.css"
 import bart from '../../img/image-23.png'
 import oculosArduino from '../../img/oculosarduino.jpeg'
-import gf from '../../img/grafico.jpg'
-import esquema from '../../img/esquema.jpg'
+import gf from '../../img/grafico.jpg.jpg'
+import esquema from '../../img/esquema.jpg.jpg'
+import email from '../../img/gmail.png'
 
 function Index() {
 
@@ -69,7 +70,7 @@ function Index() {
         <div className="Rodape">
             
             <h2 className="rodapei">Email: lucasleandro.viana@gmail.com</h2>
-            <img src="src/img/gmail.png" alt="gmail.png" className="gmail" />
+            <img src= {email} alt="gmail.png" className="gmail" />
 </div>
     </main>
   )

@@ -2,6 +2,7 @@ import "./Index.css"
 import "./Produto.css"
 import fotocaminhao from "../../img/caminhao.jpeg.jpg"
 import eu from "../../img/estrada-eu.jpg"
+import email from '../../img/gmail.png'
 
 function Produto() {
     return (
@@ -27,7 +28,7 @@ function Produto() {
 <div className="Rodape">
 
     <h2 className="rodapep">Email: lucasleandro.viana@gmail.com</h2>
-    <img src="src/img/gmail.png" alt="gmail.png" className="gmail" />
+    <img src={email} alt="gmail.png" className="gmail" />
     
 </div>
         </main>
